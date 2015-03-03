@@ -1,0 +1,66 @@
+<!DOCTYPE html >
+<head lang="en" xmlns="http://www.w3.org/1999/html">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="js/lib/angular.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="styles/app.css"/>
+
+</head>
+<body ng-app="">
+<div  class="container ">
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-2">URL:   </label><input  type="url">
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2">Width:   </label><input  type="url">
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2">Format:   </label>
+            <select class=>
+                <option value="PNG">PNG</option>
+                <option value="JPEG">JPEG</option>
+                <option value="gif">GIF</option>
+            </select>
+        </div>
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Capture all page (100% height)
+                </label>
+            </div>
+        </div>
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Mobile
+                </label><br>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2">Format:   </label>
+            <input type="text" placeholder="C:/User/Nazar/Screenshots"><br>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="bootstrap/img/image_placeholder-150x150.png" alt="...">
+            </a>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-10">
+                <button class="btn btn-default " type="button">Preview</button> <button class="btn btn-default" type="button">Save</button>
+            </div>
+        </div>
+    </form>
+
+
+
+</div>
+
+</body>
+</html>

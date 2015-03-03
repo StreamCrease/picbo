@@ -1,0 +1,11 @@
+{
+    "name": "Picbo",
+    "author": "Nazar Kuzmenko <@leestex>",
+    "version": "0.1.0",
+    "description": "Simple app that can save screenshots of web sites.",
+    "homepage": "http://picbo.streamcrease.com",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/StreamCrease/picbo.git"
+    }
+}

@@ -9,6 +9,7 @@
         "url": "git://github.com/StreamCrease/picbo.git"
     },
     "devDependencies": {
-        "grunt": "^0.4.5"
+        "grunt": "^0.4.5",
+        "grunt-jscs": "^1.5.0"
     }
 }

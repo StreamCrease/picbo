@@ -13,46 +13,68 @@
 
     <form class="form-horizontal">
         <div class="form-group">
-            <label class="col-sm-2">URL:   </label><input  type="url">
+            <label class="col-sm-2 control-label">URL:   </label>
+            <div class="col-sm-3">
+                <input  type="url">
+            </div>
+
         </div>
         <div class="form-group">
-            <label class="col-sm-2">Width:   </label><input  type="url">
+            <label class="col-sm-2 control-label">Width:   </label>
+            <div class="col-sm-3">
+                <input  type="url">
+            </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-2">Format:   </label>
-            <select class=>
-                <option value="PNG">PNG</option>
-                <option value="JPEG">JPEG</option>
-                <option value="gif">GIF</option>
-            </select>
+            <label class="col-sm-2 control-label">Format:   </label>
+            <div class="col-sm-3">
+                <select class=>
+                    <option value="PNG">PNG</option>
+                    <option value="JPEG">JPEG</option>
+                    <option value="gif">GIF</option>
+                </select>
+            </div>
+
         </div>
         <div class="col-sm-offset-2 col-sm-10">
             <div class="checkbox">
-                <label>
-                    <input type="checkbox"> Capture all page (100% height)
+                <label class=" control-label">
+                    <div>
+                        <input type="checkbox"> Capture all page (100% height)
+                    </div>
+
                 </label>
             </div>
         </div>
         <div class="col-sm-offset-2 col-sm-10">
             <div class="checkbox">
-                <label>
-                    <input type="checkbox"> Mobile
+                <label class="control-label">
+                    <div >
+                        <input type="checkbox"> Mobile
+                    </div>
+
                 </label><br>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-2">Format:   </label>
-            <input type="text" placeholder="C:/User/Nazar/Screenshots"><br>
+            <label class="col-sm-2 control-label">Format: </label>
+            <div class="col-sm-3">
+                <input type="text" placeholder="C:/User/Nazar/Screenshots"><br>
+            </div>
+
         </div>
 
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="bootstrap/img/image_placeholder-150x150.png" alt="...">
-            </a>
+        <div class="col-sm-offset-2 col-xs-6 col-md-3">
+
+                <a href="#" class="thumbnail">
+                    <img src="bootstrap/img/image_placeholder-150x150.png" alt="...">
+                </a>
+
+
         </div>
 
         <div class="form-group">
-            <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-offset-2 col-sm-10">
                 <button class="btn btn-default " type="button">Preview</button> <button class="btn btn-default" type="button">Save</button>
             </div>
         </div>
